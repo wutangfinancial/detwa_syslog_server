@@ -1,0 +1,9 @@
+/var/log/hosts/*.log
+{
+  rotate 10
+  daily
+  compress
+  missingok
+  notifempty
+}
+
